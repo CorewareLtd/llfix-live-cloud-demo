@@ -8,6 +8,8 @@ You can view the public Grafana dashboard here:
 
 https://gallantgravy37.grafana.net/public-dashboards/86bfd130cd0a4b9fac04e49942a07209
 
+Note that metric updates may take a short while to appear in Grafana.
+
 The FIX server responds to all incoming NewOrderSingle messages (35=D) with fully filled ExecutionReport messages (35=8).
 
 To connect to the server and send orders, you can use the session details below:
