@@ -16,7 +16,7 @@ To connect to the server and send orders, you can use the session details below:
 |-------------------------------------|-----------------------------------------------------------------|
 | IP                                  | 13.41.188.117                                                   |
 | Port                                | 5030                                                            |
-| Comp ID                             | EXECUTOR                                                        |
+| Target Comp ID                      | EXECUTOR                                                        |
 | Defined client comp ids you can use | CLIENT1 CLIENT2 CLIENT3 CLIENT4 CLIENT5 CLIENT6 CLIENT7 CLIENT8 |
 | Logon message reset flag            | 141=Y (ResetSeqNumFlag=Y)                                       | 
 
