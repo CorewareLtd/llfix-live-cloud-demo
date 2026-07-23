@@ -8,7 +8,7 @@ A public Grafana dashboard provides real-time server statistics, including proce
 
 The demo is intentionally deployed on a minimal cloud environment rather than dedicated high-performance hardware, showing that llfix can deliver low resource consumption even on constrained infrastructure.
 
-![Architecture diagram](diagram.png)
+![Architecture diagram](diagram.jpg)
 
 You can view the public Grafana dashboard here:
 
