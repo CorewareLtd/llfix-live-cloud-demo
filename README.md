@@ -1,6 +1,12 @@
 # llfix Live Cloud Demo
 
-This repository contains the live cloud demo for llfix. The llfix FIX server is publicly accessible, and the server statistics are also available through a public Grafana dashboard.
+This repository contains the live cloud demo for llfix.
+
+The llfix FIX server is publicly accessible and runs continuously on a basic AWS EC2 instance with limited CPU and memory resources. This demonstrates llfix's efficiency and suitability for always-on 24/7 trading systems, where predictable resource usage and long-term stability are critical.
+
+A public Grafana dashboard provides real-time server statistics, including process RSS memory usage and uptime. The dashboard demonstrates llfix's low memory footprint and operational stability during continuous operation.
+
+The demo is intentionally deployed on a minimal cloud environment rather than dedicated high-performance hardware, showing that llfix can deliver low resource consumption even on constrained infrastructure.
 
 ![Architecture diagram](diagram.png)
 
