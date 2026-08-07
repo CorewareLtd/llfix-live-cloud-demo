@@ -128,7 +128,7 @@ int main()
 
     for (int i = 0; i < client_count; i++)
     {
-        if (task_queues[i].create(10240) == false)
+        if (task_queues[i].create(8192) == false)
         {
             std::cout << "Task queue creation failed" << std::endl;
             return -1;
